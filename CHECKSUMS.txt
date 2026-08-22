@@ -1,0 +1,1 @@
+5b0f21076fa980cf4039bf81c4cc4cd5728cbecae5707ec37dbfdb26d978f6da  dist/DesktopSwitchGuard.exe
