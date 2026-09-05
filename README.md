@@ -56,8 +56,12 @@ x86_64-w64-mingw32-gcc -std=c17 -O2 -Wall -Wextra -Werror -municode -mwindows na
 生成物の整合性は、PowerShell で次のように確認できます。
 
 ```powershell
-Get-FileHash .\DesktopSwitchGuard.exe -Algorithm SHA256
+Get-FileHash .\dist\DesktopSwitchGuard.exe -Algorithm SHA256
 ```
+
+## License
+
+MIT License. 詳細は [`LICENSE`](LICENSE) を参照してください。
 
 ## References
 
