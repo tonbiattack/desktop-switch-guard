@@ -59,6 +59,10 @@ x86_64-w64-mingw32-gcc -std=c17 -O2 -Wall -Wextra -Werror -municode -mwindows na
 Get-FileHash .\dist\DesktopSwitchGuard.exe -Algorithm SHA256
 ```
 
+## 実装を読む
+
+キーボードフック、通知領域の操作、終了時の後始末、ビルド時のマニフェスト埋め込みをソースコードに沿って説明した文書は、[`docs/implementation-guide.md`](docs/implementation-guide.md) を参照してください。
+
 ## License
 
 MIT License. 詳細は [`LICENSE`](LICENSE) を参照してください。
